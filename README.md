@@ -1,18 +1,20 @@
 # DGO Tile Inc — Draft Website
 
-A single-page marketing site for **DGO Tile Inc**, a licensed pool tile contractor in
-Antelope, CA serving the Sacramento Valley. The layout follows the provided template
-(sticky nav → hero with stats → feature strip → 3 service cards → "why us" split →
-4-step process → service areas → testimonials → CTA band → contact/quote form → footer),
-restyled with a pool-water blue palette.
+A single-page marketing site for **DGO Tile Inc**, a licensed tile contractor in Antelope, CA
+specializing in pool tile installation and pool remodeling across the Sacramento Valley. The
+layout follows the provided template (sticky nav → hero with stats → brand marquee → feature
+strip → service cards → "why us" split → process → service areas → testimonials → CTA band →
+FAQ → contact/quote form → footer), restyled with a pool-water blue palette.
+
+Copy is taken from the client's **live website content** (provided directly), so wording,
+services, stats, and FAQs match their real site.
 
 ## Preview
 
-It's a static site — no build step. Open `index.html` directly, or serve the folder:
+Static site — no build step. Open `index.html`, or serve the folder:
 
 ```bash
-python3 -m http.server 8000
-# then visit http://localhost:8000
+python3 -m http.server 8000   # → http://localhost:8000
 ```
 
 ## Files
@@ -21,31 +23,28 @@ python3 -m http.server 8000
 |------|---------|
 | `index.html` | Page markup and all copy |
 | `styles.css` | Styling, responsive layout, blue palette (CSS variables at top) |
-| `script.js` | Mobile menu, scroll-spy nav, demo quote form |
+| `script.js` | Mobile menu, scroll-spy nav, demo quote form (FAQ uses native `<details>`) |
 
-## Business info used (pulled from public sources)
+## Business info (from the client's live site)
 
-- **Name:** DGO Tile Inc — Pool Tile Contractor & Pool Remodeling
-- **Phone:** (916) 261-1175
-- **Address:** 3506 Lone Ridge Ct, Antelope, CA 95843
-- **Hours:** Mon–Fri 6:00 AM – 4:00 PM · Sat–Sun Closed
-- **Experience / rating:** 25+ years · 5.0 across Yelp, Angi, HomeAdvisor
-- **Services:** pool tile installation, coping, complete remodeling, waterline/mosaic tile,
-  repairs, resurfacing, masonry & stonework — residential & commercial (incl. resorts/hotels)
+- **Name:** DGO Tile Inc — Tile Contractor specializing in Pool Tile Installation & Pool Remodeling
+- **Phone:** (916) 261-1175 · **Email:** info@dgotile.com
+- **Office:** 3506 Loneridge Ct, Antelope, CA 95843
+- **Stats:** 20+ years experience · 500+ projects completed · 95% client satisfaction
+- **Services:** Pool Tile Services · Pool Remodeling · Stone Installation · Brick & Hardscape ·
+  Specialty Applications · Accent & Decorative Features
 - **Service area:** Sacramento, Placer, El Dorado, Yolo & Sutter counties (28 cities listed)
+- **FAQ:** 10 Q&As lifted verbatim from their site
 - **Facebook:** linked in footer
-
-> The official site (dgotileinc.com) blocked automated crawling, so the above was
-> reconstructed from search-indexed content and listing/review profiles (BBB, Yelp, Angi,
-> HomeAdvisor). **Please verify all details before publishing.**
 
 ## ⚠️ Placeholders to replace before going live
 
 - **Photos** — currently Unsplash stock (hero + service cards + "why us"). Swap in real DGO
   project photos. Each `<img>` falls back to a blue gradient if it fails to load.
-- **Testimonials** — paraphrased from real reviews but attributed to "Verified Customer +
-  city." Replace with full names / real quotes you have permission to use.
-- **CSLB license #** — footer says "Licensed Contractor"; add the actual license number.
+- **Logo** — using a placeholder wave mark; drop in the real blue/black geometric DGO logo.
+- **Testimonials** — Elena Martinez is from the client's site; the other two are paraphrased
+  from real review-platform feedback and attributed to "Verified Customer + city." Replace with
+  full names / quotes you have permission to use.
 - **Quote form** — demo only (shows a confirmation, sends nothing). Wire it to email/CRM
-  (e.g. Formspree, Netlify Forms, or your backend) via the `<form>` in `index.html`.
-- **Stats** — "100% Licensed & Insured", "25+ years", "5.0" — confirm before publishing.
+  (Formspree, Netlify Forms, or a backend) so requests reach info@dgotile.com.
+- **License #** — footer says "Licensed & Insured"; add the actual CSLB license number.
