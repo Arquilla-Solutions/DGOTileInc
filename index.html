@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>DGO Tile Inc | Pool Tile Installation &amp; Pool Remodeling — Sacramento Valley</title>
+  <title data-i18n="title">DGO Tile Inc | Pool Tile Installation &amp; Pool Remodeling — Sacramento Valley</title>
   <meta name="description" content="DGO Tile Inc is a licensed tile contractor specializing in pool tile installation and pool remodeling across the Sacramento Valley. 20+ years, 500+ projects, free estimates — (916) 261-1175." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -37,16 +37,20 @@
       </a>
 
       <nav class="nav-links" id="navLinks" aria-label="Primary">
-        <a href="#top" class="active">Home</a>
-        <a href="#services">Services</a>
-        <a href="#why">About</a>
-        <a href="#areas">Areas</a>
-        <a href="#faq">FAQ</a>
-        <a href="#contact">Contact</a>
+        <a href="#top" class="active" data-i18n="nav_home">Home</a>
+        <a href="#services" data-i18n="nav_services">Services</a>
+        <a href="#why" data-i18n="nav_about">About</a>
+        <a href="#areas" data-i18n="nav_areas">Areas</a>
+        <a href="#faq" data-i18n="nav_faq">FAQ</a>
+        <a href="#contact" data-i18n="nav_contact">Contact</a>
       </nav>
 
+      <button class="lang-toggle" id="langToggle" type="button" aria-label="Switch language">
+        <span aria-hidden="true">🌐</span> <span id="langLabel">Español</span>
+      </button>
+
       <div class="nav-cta">
-        <a href="#contact" class="btn btn-pill btn-soft">Get a Quote</a>
+        <a href="#contact" class="btn btn-pill btn-soft" data-i18n="nav_quote">Get a Quote</a>
         <a href="tel:+19162611175" class="btn btn-pill btn-primary"><span class="ico" aria-hidden="true">📞</span> (916) 261-1175</a>
       </div>
 
@@ -61,37 +65,33 @@
     <div class="hero-bg" aria-hidden="true"></div>
     <div class="hero-overlay" aria-hidden="true"></div>
     <div class="container hero-inner">
-      <span class="rating-badge">★★★★★ <i>Top-rated pool tile experts in the Sacramento Valley</i></span>
-      <h1>
-        Specialists in pool tile<br />
-        installation &amp; <span class="accent">pool remodeling.</span>
-      </h1>
-      <p class="hero-sub">
+      <span class="rating-badge">★★★★★ <i data-i18n="hero_badge">Top-rated pool tile experts in the Sacramento Valley</i></span>
+      <h1 data-i18n="hero_title">Specialists in pool tile<br />installation &amp; <span class="accent">pool remodeling.</span></h1>
+      <p class="hero-sub" data-i18n="hero_sub">
         DGO Tile Inc crafts exceptional pool surfaces with precision and skill. We turn ordinary
         pools into stunning masterpieces across the Sacramento Valley.
       </p>
       <div class="hero-actions">
-        <a href="#contact" class="btn btn-primary btn-lg">Get a Quote <span aria-hidden="true">→</span></a>
+        <a href="#contact" class="btn btn-primary btn-lg" data-i18n="cta_quote">Get a Quote <span aria-hidden="true">→</span></a>
         <a href="tel:+19162611175" class="btn btn-glass btn-lg"><span class="ico" aria-hidden="true">📞</span> (916) 261-1175</a>
       </div>
 
       <div class="hero-stats">
-        <div><strong>20+</strong><span>Years of Experience</span></div>
-        <div><strong>500+</strong><span>Projects Completed</span></div>
-        <div><strong>95%</strong><span>Client Satisfaction</span></div>
+        <div><strong>20+</strong><span data-i18n="stat_years">Years of Experience</span></div>
+        <div><strong>500+</strong><span data-i18n="stat_projects">Projects Completed</span></div>
+        <div><strong>95%</strong><span data-i18n="stat_satisfaction">Client Satisfaction</span></div>
       </div>
     </div>
   </section>
 
   <!-- ===================== BRAND MARQUEE ===================== -->
   <div class="marquee" aria-hidden="true">
-    <div class="marquee-track">
+    <div class="marquee-track" data-i18n="marquee">
       <span>Tile mastery</span><span>•</span><span>Pool precision</span><span>•</span>
       <span>Craft surfaces</span><span>•</span><span>Design vision</span><span>•</span>
       <span>Build beauty</span><span>•</span><span>Expert touch</span><span>•</span>
       <span>Transform spaces</span><span>•</span><span>Skilled work</span><span>•</span>
       <span>Lasting quality</span><span>•</span><span>Tile artistry</span><span>•</span>
-      <!-- duplicate for seamless loop -->
       <span>Tile mastery</span><span>•</span><span>Pool precision</span><span>•</span>
       <span>Craft surfaces</span><span>•</span><span>Design vision</span><span>•</span>
       <span>Build beauty</span><span>•</span><span>Expert touch</span><span>•</span>
@@ -105,23 +105,23 @@
     <div class="container feature-row">
       <div class="feature">
         <span class="f-ico">🛡️</span>
-        <div><strong>Licensed &amp; Insured</strong><span>Full insurance coverage</span></div>
+        <div><strong data-i18n="feat1_t">Licensed &amp; Insured</strong><span data-i18n="feat1_s">Full insurance coverage</span></div>
       </div>
       <div class="feature">
         <span class="f-ico">🏆</span>
-        <div><strong>20+ Years</strong><span>Master craftsmanship</span></div>
+        <div><strong data-i18n="feat2_t">20+ Years</strong><span data-i18n="feat2_s">Master craftsmanship</span></div>
       </div>
       <div class="feature">
         <span class="f-ico">📝</span>
-        <div><strong>Free Estimates</strong><span>On-site, no obligation</span></div>
+        <div><strong data-i18n="feat3_t">Free Estimates</strong><span data-i18n="feat3_s">On-site, no obligation</span></div>
       </div>
       <div class="feature">
         <span class="f-ico">🌊</span>
-        <div><strong>500+ Projects</strong><span>Residential &amp; commercial</span></div>
+        <div><strong data-i18n="feat4_t">500+ Projects</strong><span data-i18n="feat4_s">Residential &amp; commercial</span></div>
       </div>
       <div class="feature">
         <span class="f-ico">⭐</span>
-        <div><strong>95% Satisfaction</strong><span>Repeat &amp; referral clients</span></div>
+        <div><strong data-i18n="feat5_t">95% Satisfaction</strong><span data-i18n="feat5_s">Repeat &amp; referral clients</span></div>
       </div>
     </div>
   </div>
@@ -129,9 +129,9 @@
   <!-- ===================== SERVICES ===================== -->
   <section class="section" id="services">
     <div class="container">
-      <p class="eyebrow">— Craft</p>
-      <h2 class="section-title">Our pool tile services</h2>
-      <p class="section-lead">
+      <p class="eyebrow" data-i18n="svc_eyebrow">— Craft</p>
+      <h2 class="section-title" data-i18n="svc_title">Our pool tile services</h2>
+      <p class="section-lead" data-i18n="svc_lead">
         Transforming Sacramento Valley pools with expert craftsmanship — from waterline to deck,
         with uncompromising quality.
       </p>
@@ -143,11 +143,11 @@
                  src="https://images.unsplash.com/photo-1576013551627-0cc20b96c2a7?auto=format&fit=crop&w=800&q=70" onerror="this.remove()" />
           </div>
           <div class="card-body">
-            <span class="svc-tag">Pool</span>
-            <h3>Pool Tile Services</h3>
-            <p>Precise installations creating lasting visual impact — waterline tile, mosaics, and
+            <span class="svc-tag" data-i18n="svc1_tag">Pool</span>
+            <h3 data-i18n="svc1_title">Pool Tile Services</h3>
+            <p data-i18n="svc1_desc">Precise installations creating lasting visual impact — waterline tile, mosaics, and
                accents in ceramic, porcelain, glass, and natural stone.</p>
-            <a href="#contact" class="learn">Learn more <span aria-hidden="true">→</span></a>
+            <a href="#contact" class="learn" data-i18n="learn_more">Learn more <span aria-hidden="true">→</span></a>
           </div>
         </article>
 
@@ -157,11 +157,11 @@
                  src="https://images.unsplash.com/photo-1571902943202-507ec2618e8f?auto=format&fit=crop&w=800&q=70" onerror="this.remove()" />
           </div>
           <div class="card-body">
-            <span class="svc-tag">Renew</span>
-            <h3>Pool Remodeling</h3>
-            <p>Reimagine outdoor spaces with bold architectural vision — tile replacement, new coping,
+            <span class="svc-tag" data-i18n="svc2_tag">Renew</span>
+            <h3 data-i18n="svc2_title">Pool Remodeling</h3>
+            <p data-i18n="svc2_desc">Reimagine outdoor spaces with bold architectural vision — tile replacement, new coping,
                resurfacing, and complete design updates.</p>
-            <a href="#contact" class="learn">Learn more <span aria-hidden="true">→</span></a>
+            <a href="#contact" class="learn" data-i18n="learn_more">Learn more <span aria-hidden="true">→</span></a>
           </div>
         </article>
 
@@ -171,11 +171,11 @@
                  src="https://images.unsplash.com/photo-1572331165267-854da2b10ccc?auto=format&fit=crop&w=800&q=70" onerror="this.remove()" />
           </div>
           <div class="card-body">
-            <span class="svc-tag">Stone</span>
-            <h3>Stone Installation</h3>
-            <p>Seamless integration of natural materials and design — travertine, flagstone, and
+            <span class="svc-tag" data-i18n="svc3_tag">Stone</span>
+            <h3 data-i18n="svc3_title">Stone Installation</h3>
+            <p data-i18n="svc3_desc">Seamless integration of natural materials and design — travertine, flagstone, and
                decorative stone that frames your pool with timeless character.</p>
-            <a href="#contact" class="learn">Learn more <span aria-hidden="true">→</span></a>
+            <a href="#contact" class="learn" data-i18n="learn_more">Learn more <span aria-hidden="true">→</span></a>
           </div>
         </article>
 
@@ -185,11 +185,11 @@
                  src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=70" onerror="this.remove()" />
           </div>
           <div class="card-body">
-            <span class="svc-tag">Build</span>
-            <h3>Brick &amp; Hardscape Services</h3>
-            <p>Functional landscapes extending your pool's architectural narrative — patios, walkways,
+            <span class="svc-tag" data-i18n="svc4_tag">Build</span>
+            <h3 data-i18n="svc4_title">Brick &amp; Hardscape Services</h3>
+            <p data-i18n="svc4_desc">Functional landscapes extending your pool's architectural narrative — patios, walkways,
                and brickwork built to last.</p>
-            <a href="#contact" class="learn">Learn more <span aria-hidden="true">→</span></a>
+            <a href="#contact" class="learn" data-i18n="learn_more">Learn more <span aria-hidden="true">→</span></a>
           </div>
         </article>
 
@@ -199,11 +199,11 @@
                  src="https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=800&q=70" onerror="this.remove()" />
           </div>
           <div class="card-body">
-            <span class="svc-tag">Accent</span>
-            <h3>Specialty Applications</h3>
-            <p>Personalized touches that define individual style — custom mosaics, feature walls, and
+            <span class="svc-tag" data-i18n="svc5_tag">Accent</span>
+            <h3 data-i18n="svc5_title">Specialty Applications</h3>
+            <p data-i18n="svc5_desc">Personalized touches that define individual style — custom mosaics, feature walls, and
                one-of-a-kind design details.</p>
-            <a href="#contact" class="learn">Learn more <span aria-hidden="true">→</span></a>
+            <a href="#contact" class="learn" data-i18n="learn_more">Learn more <span aria-hidden="true">→</span></a>
           </div>
         </article>
 
@@ -213,11 +213,11 @@
                  src="https://images.unsplash.com/photo-1505577058444-a3dab90d4253?auto=format&fit=crop&w=800&q=70" onerror="this.remove()" />
           </div>
           <div class="card-body">
-            <span class="svc-tag">Restore</span>
-            <h3>Accent &amp; Decorative Features</h3>
-            <p>Breathing new life into weathered and damaged surfaces — repairs and restorations that
+            <span class="svc-tag" data-i18n="svc6_tag">Restore</span>
+            <h3 data-i18n="svc6_title">Accent &amp; Decorative Features</h3>
+            <p data-i18n="svc6_desc">Breathing new life into weathered and damaged surfaces — repairs and restorations that
                make old pools look new again.</p>
-            <a href="#contact" class="learn">Learn more <span aria-hidden="true">→</span></a>
+            <a href="#contact" class="learn" data-i18n="learn_more">Learn more <span aria-hidden="true">→</span></a>
           </div>
         </article>
       </div>
@@ -234,14 +234,14 @@
         </div>
         <div class="why-badge">
           <strong>95%</strong>
-          <span>Repeat &amp; referral<br />client satisfaction</span>
+          <span data-i18n="why_badge">Repeat &amp; referral<br />client satisfaction</span>
         </div>
       </div>
 
       <div class="why-text">
-        <p class="eyebrow left">— Trusted</p>
-        <h2 class="section-title left">Why DGO Tile stands<br />above other contractors</h2>
-        <p class="section-lead left">
+        <p class="eyebrow left" data-i18n="why_eyebrow">— Trusted</p>
+        <h2 class="section-title left" data-i18n="why_title">Why DGO Tile stands<br />above other contractors</h2>
+        <p class="section-lead left" data-i18n="why_lead">
           We build more than surfaces. We create enduring relationships through honest work and
           precise craftsmanship — pool experiences that stand against time and California's harsh elements.
         </p>
@@ -249,19 +249,19 @@
         <ul class="why-list">
           <li>
             <span class="chk" aria-hidden="true">✓</span>
-            <div><strong>Skilled experts</strong><p>Licensed contractors who understand the intricate demands of pool tile installation.</p></div>
+            <div><strong data-i18n="why1_t">Skilled experts</strong><p data-i18n="why1_s">Licensed contractors who understand the intricate demands of pool tile installation.</p></div>
           </li>
           <li>
             <span class="chk" aria-hidden="true">✓</span>
-            <div><strong>Complete services</strong><p>Comprehensive pool solutions from waterline to deck with uncompromising quality.</p></div>
+            <div><strong data-i18n="why2_t">Complete services</strong><p data-i18n="why2_s">Comprehensive pool solutions from waterline to deck with uncompromising quality.</p></div>
           </li>
           <li>
             <span class="chk" aria-hidden="true">✓</span>
-            <div><strong>Regional pool experts</strong><p>Decades of solving unique pool challenges across the Sacramento Valley landscape.</p></div>
+            <div><strong data-i18n="why3_t">Regional pool experts</strong><p data-i18n="why3_s">Decades of solving unique pool challenges across the Sacramento Valley landscape.</p></div>
           </li>
           <li>
             <span class="chk" aria-hidden="true">✓</span>
-            <div><strong>Quality commitment</strong><p>Premium materials and installations that withstand harsh California sun and constant use.</p></div>
+            <div><strong data-i18n="why4_t">Quality commitment</strong><p data-i18n="why4_s">Premium materials and installations that withstand harsh California sun and constant use.</p></div>
           </li>
         </ul>
       </div>
@@ -271,9 +271,9 @@
   <!-- ===================== PROCESS ===================== -->
   <section class="section" id="process">
     <div class="container">
-      <p class="eyebrow">— How It Works</p>
-      <h2 class="section-title">From quote to finished pool</h2>
-      <p class="section-lead">
+      <p class="eyebrow" data-i18n="proc_eyebrow">— How It Works</p>
+      <h2 class="section-title" data-i18n="proc_title">From quote to finished pool</h2>
+      <p class="section-lead" data-i18n="proc_lead">
         Remodeling your pool shouldn't be stressful. Here's exactly what to expect when you
         work with DGO Tile.
       </p>
@@ -281,23 +281,23 @@
       <div class="steps">
         <div class="step">
           <span class="step-num">01</span>
-          <h3>Request a Quote</h3>
-          <p>Call or fill out our quick form. Tell us about your pool and the look you have in mind.</p>
+          <h3 data-i18n="step1_t">Request a Quote</h3>
+          <p data-i18n="step1_s">Call or fill out our quick form. Tell us about your pool and the look you have in mind.</p>
         </div>
         <div class="step">
           <span class="step-num">02</span>
-          <h3>Free On-Site Estimate</h3>
-          <p>We visit, evaluate your specific needs, and provide a clear, honest estimate — no obligation.</p>
+          <h3 data-i18n="step2_t">Free On-Site Estimate</h3>
+          <p data-i18n="step2_s">We visit, evaluate your specific needs, and provide a clear, honest estimate — no obligation.</p>
         </div>
         <div class="step">
           <span class="step-num">03</span>
-          <h3>We Build It</h3>
-          <p>Our crew installs your tile, coping, or remodel with precision and clean, on-time work.</p>
+          <h3 data-i18n="step3_t">We Build It</h3>
+          <p data-i18n="step3_s">Our crew installs your tile, coping, or remodel with precision and clean, on-time work.</p>
         </div>
         <div class="step">
           <span class="step-num">04</span>
-          <h3>Enjoy Your Pool</h3>
-          <p>Dive into a stunning finish built to last 15–20 years — backed by our materials &amp; workmanship warranty.</p>
+          <h3 data-i18n="step4_t">Enjoy Your Pool</h3>
+          <p data-i18n="step4_s">Dive into a stunning finish built to last 15–20 years — backed by our materials &amp; workmanship warranty.</p>
         </div>
       </div>
     </div>
@@ -306,9 +306,9 @@
   <!-- ===================== SERVICE AREAS ===================== -->
   <section class="section section-soft" id="areas">
     <div class="container">
-      <p class="eyebrow">— Areas We Serve</p>
-      <h2 class="section-title">Proudly serving the<br />Sacramento Valley</h2>
-      <p class="section-lead">
+      <p class="eyebrow" data-i18n="area_eyebrow">— Areas We Serve</p>
+      <h2 class="section-title" data-i18n="area_title">Proudly serving the<br />Sacramento Valley</h2>
+      <p class="section-lead" data-i18n="area_lead">
         We proudly offer our expert tile contracting services across the greater Sacramento region
         and beyond — including Sacramento, Placer, El Dorado, Yolo, and Sutter counties.
       </p>
@@ -328,9 +328,9 @@
   <!-- ===================== TESTIMONIALS ===================== -->
   <section class="section" id="reviews">
     <div class="container">
-      <p class="eyebrow">— What Clients Say</p>
-      <h2 class="section-title">Craftsmanship that<br />speaks for itself</h2>
-      <p class="section-lead">
+      <p class="eyebrow" data-i18n="rev_eyebrow">— What Clients Say</p>
+      <h2 class="section-title" data-i18n="rev_title">Craftsmanship that<br />speaks for itself</h2>
+      <p class="section-lead" data-i18n="rev_lead">
         Real feedback from pool owners across the Sacramento Valley who trusted DGO Tile with
         their projects.
       </p>
@@ -338,31 +338,31 @@
       <div class="cards-3">
         <article class="review-card">
           <div class="stars">★★★★★</div>
-          <p>"Their craftsmanship speaks louder than words. These tile experts transformed our pool
+          <p data-i18n="rev1_q">"Their craftsmanship speaks louder than words. These tile experts transformed our pool
              into a work of art that feels both timeless and modern."</p>
           <div class="reviewer">
             <span class="avatar">E</span>
-            <div><strong>Elena Martinez</strong><em>Homeowner, Placer County</em></div>
+            <div><strong>Elena Martinez</strong><em data-i18n="rev1_loc">Homeowner, Placer County</em></div>
           </div>
         </article>
 
         <article class="review-card">
           <div class="stars">★★★★★</div>
-          <p>"Excellent job replacing the water line tile on our inground pool. Thorough, professional,
+          <p data-i18n="rev2_q">"Excellent job replacing the water line tile on our inground pool. Thorough, professional,
              courteous, and a genuinely hard worker."</p>
           <div class="reviewer">
             <span class="avatar">R</span>
-            <div><strong>Verified Customer</strong><em>Roseville, CA</em></div>
+            <div><strong data-i18n="verified_customer">Verified Customer</strong><em>Roseville, CA</em></div>
           </div>
         </article>
 
         <article class="review-card">
           <div class="stars">★★★★★</div>
-          <p>"Camilo is great — smart and honest. Repaired our pool tiles quickly at a very reasonable
+          <p data-i18n="rev3_q">"Camilo is great — smart and honest. Repaired our pool tiles quickly at a very reasonable
              price. Highly recommend!"</p>
           <div class="reviewer">
             <span class="avatar">A</span>
-            <div><strong>Verified Customer</strong><em>Antelope, CA</em></div>
+            <div><strong data-i18n="verified_customer">Verified Customer</strong><em>Antelope, CA</em></div>
           </div>
         </article>
       </div>
@@ -373,11 +373,11 @@
   <section class="cta-band">
     <div class="container cta-inner">
       <div>
-        <h2>Ready to transform your pool?</h2>
-        <p>Get a free estimate and start your pool renovation journey with Sacramento's trusted tile experts.</p>
+        <h2 data-i18n="ctaband_title">Ready to transform your pool?</h2>
+        <p data-i18n="ctaband_sub">Get a free estimate and start your pool renovation journey with Sacramento's trusted tile experts.</p>
       </div>
       <div class="cta-actions">
-        <a href="#contact" class="btn btn-white btn-lg">Get a Quote <span aria-hidden="true">→</span></a>
+        <a href="#contact" class="btn btn-white btn-lg" data-i18n="cta_quote">Get a Quote <span aria-hidden="true">→</span></a>
         <a href="tel:+19162611175" class="btn btn-glass btn-lg"><span class="ico" aria-hidden="true">📞</span> (916) 261-1175</a>
       </div>
     </div>
@@ -386,61 +386,61 @@
   <!-- ===================== FAQ ===================== -->
   <section class="section section-soft" id="faq">
     <div class="container">
-      <p class="eyebrow">— FAQs</p>
-      <h2 class="section-title">Frequently asked questions</h2>
-      <p class="section-lead">
+      <p class="eyebrow" data-i18n="faq_eyebrow">— FAQs</p>
+      <h2 class="section-title" data-i18n="faq_title">Frequently asked questions</h2>
+      <p class="section-lead" data-i18n="faq_lead">
         Answers to common questions about our pool tile and remodeling services.
       </p>
 
       <div class="faq-list">
         <details class="faq-item">
-          <summary>How long do tile installations last?</summary>
-          <p>Our premium installations typically last 15–20 years with proper maintenance. We use
+          <summary data-i18n="faq1_q">How long do tile installations last?</summary>
+          <p data-i18n="faq1_a">Our premium installations typically last 15–20 years with proper maintenance. We use
              high-grade materials resistant to California's harsh sunlight and pool chemicals.</p>
         </details>
         <details class="faq-item">
-          <summary>What areas do you serve?</summary>
-          <p>We cover the entire Sacramento Valley including Sacramento, Placer, El Dorado, Yolo, and
+          <summary data-i18n="faq2_q">What areas do you serve?</summary>
+          <p data-i18n="faq2_a">We cover the entire Sacramento Valley including Sacramento, Placer, El Dorado, Yolo, and
              Sutter counties. Our local expertise ensures precise regional solutions.</p>
         </details>
         <details class="faq-item">
-          <summary>Do you offer free estimates?</summary>
-          <p>Yes, we provide complimentary on-site estimates for all pool tile and remodeling projects.
+          <summary data-i18n="faq3_q">Do you offer free estimates?</summary>
+          <p data-i18n="faq3_a">Yes, we provide complimentary on-site estimates for all pool tile and remodeling projects.
              Our team evaluates your specific needs with no obligation.</p>
         </details>
         <details class="faq-item">
-          <summary>What tile materials do you use?</summary>
-          <p>We work with ceramic, porcelain, natural stone, and glass tiles. Each material is carefully
+          <summary data-i18n="faq4_q">What tile materials do you use?</summary>
+          <p data-i18n="faq4_a">We work with ceramic, porcelain, natural stone, and glass tiles. Each material is carefully
              selected for durability, aesthetic appeal, and performance in pool environments.</p>
         </details>
         <details class="faq-item">
-          <summary>Are you licensed and insured?</summary>
-          <p>Absolutely. We are fully licensed contractors with comprehensive insurance coverage. Our
+          <summary data-i18n="faq5_q">Are you licensed and insured?</summary>
+          <p data-i18n="faq5_a">Absolutely. We are fully licensed contractors with comprehensive insurance coverage. Our
              credentials ensure professional, reliable service for every project.</p>
         </details>
         <details class="faq-item">
-          <summary>How long do installations take?</summary>
-          <p>Project timelines vary based on complexity. Typical pool tile installations range from
+          <summary data-i18n="faq6_q">How long do installations take?</summary>
+          <p data-i18n="faq6_a">Project timelines vary based on complexity. Typical pool tile installations range from
              3–7 days. We provide detailed schedules during our initial consultation.</p>
         </details>
         <details class="faq-item">
-          <summary>What about pool maintenance?</summary>
-          <p>We offer guidance on maintaining your new tile surfaces. Regular cleaning and proper
+          <summary data-i18n="faq7_q">What about pool maintenance?</summary>
+          <p data-i18n="faq7_a">We offer guidance on maintaining your new tile surfaces. Regular cleaning and proper
              chemical balance will extend the life of your pool tile installation.</p>
         </details>
         <details class="faq-item">
-          <summary>Can you match existing designs?</summary>
-          <p>Our skilled team specializes in seamless design integration. We can match or complement
+          <summary data-i18n="faq8_q">Can you match existing designs?</summary>
+          <p data-i18n="faq8_a">Our skilled team specializes in seamless design integration. We can match or complement
              existing pool aesthetics with precision and creativity.</p>
         </details>
         <details class="faq-item">
-          <summary>Do you handle commercial projects?</summary>
-          <p>Yes, we serve both residential and commercial clients across the Sacramento Valley. Our
+          <summary data-i18n="faq9_q">Do you handle commercial projects?</summary>
+          <p data-i18n="faq9_a">Yes, we serve both residential and commercial clients across the Sacramento Valley. Our
              expertise extends to hotels, resorts, and public pool facilities.</p>
         </details>
         <details class="faq-item">
-          <summary>What warranty do you offer?</summary>
-          <p>We provide comprehensive warranties on materials and workmanship. Specific terms are
+          <summary data-i18n="faq10_q">What warranty do you offer?</summary>
+          <p data-i18n="faq10_a">We provide comprehensive warranties on materials and workmanship. Specific terms are
              discussed during project planning to ensure your complete satisfaction.</p>
         </details>
       </div>
@@ -451,56 +451,56 @@
   <section class="section" id="contact">
     <div class="container contact-grid">
       <div class="contact-info">
-        <p class="eyebrow left">— Contact</p>
-        <h2 class="section-title left">Get a quote</h2>
-        <p class="section-lead left">
+        <p class="eyebrow left" data-i18n="contact_eyebrow">— Contact</p>
+        <h2 class="section-title left" data-i18n="contact_title">Get a quote</h2>
+        <p class="section-lead left" data-i18n="contact_lead">
           Precision tile work that transforms your outdoor living space. Tell us about your pool
           project and we'll follow up with a clear, honest estimate — or call us directly.
         </p>
 
         <ul class="contact-list">
-          <li><span class="c-ico">📞</span><div><strong>Phone</strong><a href="tel:+19162611175">(916) 261-1175</a></div></li>
-          <li><span class="c-ico">✉️</span><div><strong>Email</strong><a href="mailto:info@dgotile.com">info@dgotile.com</a></div></li>
-          <li><span class="c-ico">📍</span><div><strong>Office</strong><span>3506 Loneridge Ct, Antelope, CA 95843</span></div></li>
-          <li><span class="c-ico">🌊</span><div><strong>Service Area</strong><span>Greater Sacramento Valley &amp; nearby counties</span></div></li>
+          <li><span class="c-ico">📞</span><div><strong data-i18n="contact_phone">Phone</strong><a href="tel:+19162611175">(916) 261-1175</a></div></li>
+          <li><span class="c-ico">✉️</span><div><strong data-i18n="contact_email">Email</strong><a href="mailto:info@dgotile.com">info@dgotile.com</a></div></li>
+          <li><span class="c-ico">📍</span><div><strong data-i18n="contact_office">Office</strong><span>3506 Loneridge Ct, Antelope, CA 95843</span></div></li>
+          <li><span class="c-ico">🌊</span><div><strong data-i18n="contact_area">Service Area</strong><span data-i18n="contact_area_val">Greater Sacramento Valley &amp; nearby counties</span></div></li>
         </ul>
       </div>
 
       <form class="quote-form" id="quoteForm" novalidate>
         <div class="field">
-          <label for="name">Full Name</label>
-          <input type="text" id="name" name="name" placeholder="Jane Doe" required />
+          <label for="name" data-i18n="form_name">Full Name</label>
+          <input type="text" id="name" name="name" placeholder="Jane Doe" data-i18n-ph="form_name_ph" required />
         </div>
         <div class="field-row">
           <div class="field">
-            <label for="phone">Phone</label>
+            <label for="phone" data-i18n="form_phone">Phone</label>
             <input type="tel" id="phone" name="phone" placeholder="(916) 000-0000" required />
           </div>
           <div class="field">
-            <label for="email">Email</label>
+            <label for="email" data-i18n="form_email">Email</label>
             <input type="email" id="email" name="email" placeholder="you@email.com" />
           </div>
         </div>
         <div class="field">
-          <label for="service">Service Needed</label>
+          <label for="service" data-i18n="form_service">Service Needed</label>
           <select id="service" name="service">
-            <option value="">Select a service…</option>
-            <option>Pool Tile Services</option>
-            <option>Pool Remodeling</option>
-            <option>Stone Installation</option>
-            <option>Brick &amp; Hardscape Services</option>
-            <option>Specialty Applications</option>
-            <option>Accent &amp; Decorative Features</option>
-            <option>Commercial / Resort Pool</option>
-            <option>Other</option>
+            <option value="" data-i18n="form_service_ph">Select a service…</option>
+            <option data-i18n="svc1_title">Pool Tile Services</option>
+            <option data-i18n="svc2_title">Pool Remodeling</option>
+            <option data-i18n="svc3_title">Stone Installation</option>
+            <option data-i18n="svc4_title">Brick &amp; Hardscape Services</option>
+            <option data-i18n="svc5_title">Specialty Applications</option>
+            <option data-i18n="svc6_title">Accent &amp; Decorative Features</option>
+            <option data-i18n="form_opt_commercial">Commercial / Resort Pool</option>
+            <option data-i18n="form_opt_other">Other</option>
           </select>
         </div>
         <div class="field">
-          <label for="message">Tell us about your project</label>
-          <textarea id="message" name="message" rows="4" placeholder="Pool size, what you'd like done, timeline…"></textarea>
+          <label for="message" data-i18n="form_message">Tell us about your project</label>
+          <textarea id="message" name="message" rows="4" placeholder="Pool size, what you'd like done, timeline…" data-i18n-ph="form_message_ph"></textarea>
         </div>
-        <button type="submit" class="btn btn-primary btn-lg btn-block">Send My Request <span aria-hidden="true">→</span></button>
-        <p class="form-note" id="formNote" hidden>✓ Thanks! This is a demo form — connect it to your email or CRM to receive requests.</p>
+        <button type="submit" class="btn btn-primary btn-lg btn-block" data-i18n="form_submit">Send My Request <span aria-hidden="true">→</span></button>
+        <p class="form-note" id="formNote" hidden data-i18n="form_note">✓ Thanks! This is a demo form — connect it to your email or CRM to receive requests.</p>
       </form>
     </div>
   </section>
@@ -519,7 +519,7 @@
           </span>
           <span class="brand-text"><strong>DGO Tile Inc</strong><em>Antelope, CA</em></span>
         </a>
-        <p>Precision tile work that transforms your outdoor living space. Licensed pool tile contractor
+        <p data-i18n="footer_blurb">Precision tile work that transforms your outdoor living space. Licensed pool tile contractor
            crafting durable, beautiful pool surfaces across the Sacramento Valley.</p>
         <div class="socials">
           <a href="https://www.facebook.com/p/DGO-Tile-INC-61566677050763/" target="_blank" rel="noopener" aria-label="Facebook">f</a>
@@ -529,27 +529,27 @@
       </div>
 
       <div class="footer-col">
-        <h4>Our Services</h4>
-        <a href="#services">Pool Tile Services</a>
-        <a href="#services">Pool Remodeling</a>
-        <a href="#services">Stone Installation</a>
-        <a href="#services">Brick &amp; Hardscape</a>
-        <a href="#services">Specialty Applications</a>
-        <a href="#services">Accent Features</a>
+        <h4 data-i18n="footer_services">Our Services</h4>
+        <a href="#services" data-i18n="svc1_title">Pool Tile Services</a>
+        <a href="#services" data-i18n="svc2_title">Pool Remodeling</a>
+        <a href="#services" data-i18n="svc3_title">Stone Installation</a>
+        <a href="#services" data-i18n="footer_brick">Brick &amp; Hardscape</a>
+        <a href="#services" data-i18n="svc5_title">Specialty Applications</a>
+        <a href="#services" data-i18n="footer_accent">Accent Features</a>
       </div>
 
       <div class="footer-col">
-        <h4>Navigation</h4>
-        <a href="#top">Home</a>
-        <a href="#why">About</a>
-        <a href="#areas">Service Areas</a>
-        <a href="#faq">FAQ</a>
-        <a href="#reviews">Reviews</a>
-        <a href="#contact">Contact</a>
+        <h4 data-i18n="footer_nav">Navigation</h4>
+        <a href="#top" data-i18n="nav_home">Home</a>
+        <a href="#why" data-i18n="nav_about">About</a>
+        <a href="#areas" data-i18n="footer_areas">Service Areas</a>
+        <a href="#faq" data-i18n="nav_faq">FAQ</a>
+        <a href="#reviews" data-i18n="footer_reviews">Reviews</a>
+        <a href="#contact" data-i18n="nav_contact">Contact</a>
       </div>
 
       <div class="footer-col">
-        <h4>Get in Touch</h4>
+        <h4 data-i18n="footer_touch">Get in Touch</h4>
         <a href="tel:+19162611175">📞 (916) 261-1175</a>
         <a href="mailto:info@dgotile.com">✉️ info@dgotile.com</a>
         <span>📍 3506 Loneridge Ct,<br />&nbsp;&nbsp;&nbsp;&nbsp;Antelope, CA 95843</span>
@@ -557,8 +557,8 @@
     </div>
     <div class="footer-bottom">
       <div class="container">
-        <span>© 2026 DGO Tile Inc. All rights reserved.</span>
-        <span>Licensed &amp; Insured · Serving the Sacramento Valley</span>
+        <span data-i18n="footer_copy">© 2026 DGO Tile Inc. All rights reserved.</span>
+        <span data-i18n="footer_legal">Licensed &amp; Insured · Serving the Sacramento Valley</span>
       </div>
     </div>
   </footer>

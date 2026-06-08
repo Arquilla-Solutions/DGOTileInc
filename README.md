@@ -23,7 +23,17 @@ python3 -m http.server 8000   # → http://localhost:8000
 |------|---------|
 | `index.html` | Page markup and all copy |
 | `styles.css` | Styling, responsive layout, blue palette (CSS variables at top) |
-| `script.js` | Mobile menu, scroll-spy nav, demo quote form (FAQ uses native `<details>`) |
+| `script.js` | Language toggle (EN/ES), mobile menu, scroll-spy nav, demo quote form |
+
+## Bilingual (English / Spanish)
+
+A 🌐 language toggle sits at the top of every screen (next to the menu on mobile). It swaps
+all page copy between English and Spanish instantly — no reload. The choice is remembered in
+`localStorage`, and first-time visitors with a Spanish browser default to Spanish automatically.
+
+Translations live in the `I18N` dictionary in `script.js`, keyed by the `data-i18n`
+attributes in `index.html`. To edit copy, change both the `en` and `es` entries for that key
+(a parity check confirmed all 137 keys exist in both languages).
 
 ## Business info (from the client's live site)
 
